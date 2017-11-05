@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00000000"
+    android:gravity="center"
+    android:id="@+id/mwidget">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@mipmap/shoplist"
+        android:layout_centerVertical="true"
+        android:id="@+id/widimage"/>
+    <TextView
+        android:id="@+id/widtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/widimage"
+        android:layout_marginStart="10dp"
+        android:layout_margin="8dp"
+        android:background="#00000000"
+        android:text="当前没有任何信息"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold|italic" />
+
+</RelativeLayout>
